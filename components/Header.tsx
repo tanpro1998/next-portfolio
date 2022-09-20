@@ -27,31 +27,25 @@ export default function Header({}: Props) {
             url="https://facebook.com/in/jaketrent"
             fgColor="gray"
             bgColor="transparent"
-          />
-          <SocialIcon
-            url="https://example.com/in/jaketrent"
-            fgColor="gray"
-            bgColor="transparent"
+            className="hover:scale-150 transition-all duration-300"
           />
           <SocialIcon
             url="https://youtube.com/in/jaketrent"
             fgColor="gray"
             bgColor="transparent"
+            className="hover:scale-150 transition-all duration-300"
           />
           <SocialIcon
             url="https://instagram.com/in/jaketrent"
             fgColor="gray"
             bgColor="transparent"
-          />
-          <SocialIcon
-            url="https://example.com/in/jaketrent"
-            fgColor="gray"
-            bgColor="transparent"
+            className="hover:scale-150 transition-all duration-300"
           />
           <SocialIcon
             url="https://twitter.com/in/jaketrent"
             fgColor="gray"
             bgColor="transparent"
+            className="hover:scale-150 transition-all duration-300"
           />
         </div>
       </motion.div>
