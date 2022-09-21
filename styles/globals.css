@@ -6,4 +6,8 @@
   .heroButton {
     @apply px-6 py-2 border border-white rounded-full text-sm uppercase text-gray-400 tracking-widest transition-all hover:border-[black] m-2;
   }
+
+  .inputContainer {
+    @apply px-6 p-4 bg-slate-400/30 outline-none text-gray-500 focus:text-white focus:border-black placeholder-gray-300;
+  }
 }

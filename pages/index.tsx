@@ -25,10 +25,9 @@ const Home: NextPage = () => {
     window.addEventListener("scroll", handleScroll, true);
     return () => window.removeEventListener("scroll", handleScroll, true);
   }, []);
-  console.log(showBtn);
 
   return (
-    <div className="bg-teal-900 text-white h-full snap-y snap-mandatory overflow-y-auto  z-0">
+    <div className="bg-teal-900 text-white h-full snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-teal-500">
       <Head>
         <title>Create Next App</title>
       </Head>
